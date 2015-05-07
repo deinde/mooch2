@@ -1,6 +1,4 @@
 class SessionsController < ApplicationController
-  
-
 
   def create
   	@users = User.find_by(email: params[:email])
